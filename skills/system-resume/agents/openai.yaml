@@ -1,0 +1,4 @@
+interface:
+  display_name: "System Resume"
+  short_description: "Resume the current system state and theme."
+  default_prompt: "Use $system-resume to reconnect to this repo's current investment system without starting from scratch."

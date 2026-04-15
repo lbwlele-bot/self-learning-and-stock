@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Ops"
+  short_description: "Run the repo's market observation workflows."
+  default_prompt: "Use $market-ops to run the repo's market workflow for today, an alert, a nightly check, or a weekly check."

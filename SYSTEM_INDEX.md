@@ -1,11 +1,11 @@
 # 系统总索引
 
 这套系统的定位是：
-`主题优先导航 + 三层骨架约束的投资决策辅助系统`
+`主题优先导航 + 三层骨架约束 + repo-local skills 执行入口的投资决策辅助系统`
 
 它不是自动荐股系统，也不是纯学习笔记库。
 它的目标是把：
-`逻辑基点 -> 工作假设 -> 投资翻译 / 执行`
+`逻辑基点 -> 工作假设 -> 投资翻译 -> 执行规则`
 这条链条跑顺，并且让高频入口足够清晰。
 
 ## 最小阅读路径
@@ -29,9 +29,11 @@
   日常继续先从 `TOPIC_MAP.md` 找当前在讨论什么。
 - `三层结构是底座`
   每个主题都应能追溯到：
-  `逻辑基点 -> 工作假设 -> 投资翻译 / 执行`
-- `playbooks 是执行层`
-  只在逻辑和假设相对清楚后使用。
+  `逻辑基点 -> 工作假设 -> 投资翻译 -> 执行规则`
+- `skills 是执行入口`
+  高频 workflow 优先从 `skills/README.md` 和对应 skill 进入。
+- `playbooks / frameworks 是方法 reference`
+  只在逻辑和假设相对清楚后，按需读取。
 
 一句话：
 `先用主题找到问题，再用三层结构约束讨论深度和落地路径。`
@@ -50,6 +52,10 @@
 - 原则：`memory/principles.md`
 - 开放问题：`memory/open-questions.md`
 - 主题进度：`TOPIC_MAP.md`
+- 投资翻译：`docs/frameworks/INVESTMENT_TRANSLATION.md`
+- 组合预算与角色分工：`docs/frameworks/PORTFOLIO_ROLE_BUDGET.md`
+- 估值带与动作带：`docs/frameworks/VALUATION_ACTION_BANDS.md`
+- 执行规则：`docs/playbooks/ACTIONS.md`
 - 发现路径：`docs/frameworks/DISCOVERY_PIPELINE.md`
 
 规则：
@@ -66,13 +72,38 @@
 - 逻辑基点：`memory/logic-bases.md`
 - 原则与边界：`memory/principles.md`
 - 开放问题：`memory/open-questions.md`
+- skill 索引：`skills/README.md`
+- 投资翻译：`docs/frameworks/INVESTMENT_TRANSLATION.md`
+- 组合预算与角色分工：`docs/frameworks/PORTFOLIO_ROLE_BUDGET.md`
+- 估值带与动作带：`docs/frameworks/VALUATION_ACTION_BANDS.md`
 - 执行入口：`docs/playbooks/README_TRADING_LOOP.md`
+- 动作规则与心理补丁：`docs/playbooks/ACTIONS.md`
 - 发现路径：`docs/frameworks/DISCOVERY_PIPELINE.md`
+- 特定股票研究卡索引：`docs/stocks/README.md`
+
+## Skill Layer
+
+repo-local skills 当前固定 7 个：
+
+- `skills/system-resume/`
+- `skills/memory-governor/`
+- `skills/market-ops/`
+- `skills/retro-replay/`
+- `skills/discovery-pipeline/`
+- `skills/company-card-builder/`
+- `skills/consent-capture/`
+
+默认运行链：
+
+`system-resume -> discovery-pipeline -> company-card-builder -> market-ops -> consent-capture -> memory-governor`
 
 ## 框架分层
 
 ### 高频框架
 
+- `docs/frameworks/INVESTMENT_TRANSLATION.md`
+- `docs/frameworks/PORTFOLIO_ROLE_BUDGET.md`
+- `docs/frameworks/VALUATION_ACTION_BANDS.md`
 - `docs/frameworks/DISCOVERY_PIPELINE.md`
 - `docs/frameworks/SIGNALS.md`
 - `docs/frameworks/STAGE_TRADING.md`
@@ -93,6 +124,10 @@
 - `docs/frameworks/DIRECTION_VS_DURATION.md`
 - `docs/frameworks/LEADING_INDICATORS.md`
 - `docs/frameworks/STAGE_VS_LONGTERM.md`
+
+### 特定股票再用
+
+- `docs/stocks/README.md`
 
 ## 模板怎么用
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Discovery Pipeline"
+  short_description: "Turn topics into watchlist candidates and key links."
+  default_prompt: "Use $discovery-pipeline to turn the current topic into industries, key links, heat filtering, and watchlist candidates."

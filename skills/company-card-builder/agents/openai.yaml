@@ -1,0 +1,4 @@
+interface:
+  display_name: "Company Card Builder"
+  short_description: "Build or refresh a standardized company research card."
+  default_prompt: "Use $company-card-builder to build or refresh a company research card from the current watchlist candidate."

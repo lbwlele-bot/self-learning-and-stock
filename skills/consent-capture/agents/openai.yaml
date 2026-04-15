@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consent Capture"
+  short_description: "Classify conversation insights by system layer, then wait for approval."
+  default_prompt: "Use $consent-capture to distill the best reusable insights from this conversation, decide which system layer each one belongs to, show where they belong in the repo, and wait for my approval before writing anything."

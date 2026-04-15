@@ -1,0 +1,4 @@
+interface:
+  display_name: "Retro Replay"
+  short_description: "Run historical replay without leaking future information."
+  default_prompt: "Use $retro-replay to replay a historical market window using only the information visible on each day."

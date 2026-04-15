@@ -1,0 +1,4 @@
+interface:
+  display_name: "Memory Governor"
+  short_description: "Route new conclusions into the right system file."
+  default_prompt: "Use $memory-governor to place a new conclusion into the correct system layer and update target."

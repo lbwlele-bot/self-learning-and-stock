@@ -186,6 +186,7 @@
 - 这不是高频切换系统
 - 这不是完整仓位公式
 - 组合预算与角色分工，优先回到 `../frameworks/PORTFOLIO_ROLE_BUDGET.md`
+- 估值带如何翻成动作带，优先回到 `../frameworks/VALUATION_ACTION_BANDS.md`
 
 它只负责：
 `把观察连接到最小动作。`
